@@ -17,3 +17,4 @@ end
 
 def now_serving(line)
   puts "Currently serving #{line.unshift}."
+end
