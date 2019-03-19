@@ -16,5 +16,9 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-  puts "Currently serving #{line.unshift}."
+  if line.length > 0
+    puts "Currently serving #{line.unshift}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
